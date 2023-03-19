@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeAcademy</title>
+    <link rel="stylesheet" href="./css/stylejava.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/605a93ff41.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="background-color: var(--primary-color);">
+    <!-- header  -->
+    <header>
+      <nav class="navbar2">
+        <div class="jmalo">
+          <div class="d-flex flex-row">
+            <div class="d-flex flex-column justify-content-center">
+              <div class="d-flex flex-row">
+                <img src="./img/codeacademy.png" class="codeacademy" />
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <h1 class="codeacademyparah1">CodeAcademy </h1>
+              <p class="codeacademyparap">Make "I.T" Bigger</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row justify-content-end">
+            <div class="d-flex flex-column justify-content-center">
+              <div class="d-flex flex-row">
+                <div class="dropdown navmargin1">
+                  <h6
+                    class="dropdown-toggle"
+                    type="button"
+                    id="dropdownMenu2"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Courses
+                  </h6>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item new" type="button">
+                      React
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      Angular
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                     Node.js
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      Next.js
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      Android Dev(Soon)
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="dropdown navmargin2">
+                  <h6
+                    class="dropdown-toggle"
+                    type="button"
+                    id="dropdownMenu2"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Our Teachers
+                  </h6>
+                  <div class="dropdown-menu dt" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item new" type="button">
+                      Arun Sir
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      KK Sir
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      Murli Sir
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      Varun Sir
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      Ravi Sir
+                    </button>
+                  </div>
+                </div>
+                <div class="dropdown navmargin2">
+                  <h6
+                    class="dropdown-toggle"
+                    type="button"
+                    id="dropdownMenu2"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Subscription Plans
+                  </h6>
+                  <div class="dropdown-menu dt" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item new" type="button">
+                      Yearly Subscriptions
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      Half Yearly Subscription
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      Monthly Subscriptions
+                    </button>
+                  </div>
+                </div>
+                <div class="dropdown navmargin2 navmargin3">
+                  <h6
+                    class="dropdown-toggle"
+                    type="button"
+                    id="dropdownMenu2"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    About
+                  </h6>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item new" type="button">
+                      Overview
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      Carrer
+                    </button>
+                    <button class="dropdown-item new" type="button">
+                      Contact us
+                    </button>
+                  </div>
+                </div>
+                <img src="./img/moon.png" id="icon" alt="">
+                <div>
+                  <button class="navbutton">Contact us</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+    
+
+    <!-- Header ends  -->
+    <br />
+    <br />
+    <br />
+
+    <!-- Section 1  -->
+    <section>
+    <div class="Section1">
+      <div class="h1">
+        <h1>JavaScript Development</h1>
+      </div>
+      <p class="para1">
+        JavaScript powers thousands of web and mobile apps and it is one of the
+        most popular programming languages in the software development world.
+        Our JavaScript developers are well-versed in various JavaScript
+        frameworks and libraries to deliver interactive front-end and robust
+        back end of applications. With our JavaScript development
+        courses, you can utilize JavaScripts versatility to build truly
+        engaging, interactive, and seamless web applications.
+      </p>
+      <div class="java1">
+        <img
+          src="./img/java1.png"
+          alt="there is somthing like a 'women' on javascript"
+        />
+        <button>Let's Talk</button>
+      </div>
+      <hr />
+      <hr />
+    </div>
+  </section>
+
+    <!-- section 1 ends  -->
+
+    <!-- section 2  -->
+  <section>
+    <div class="section2">
+      <div class="h2">
+        <h1 class="head1">JavaScript Frameworks We Teach</h1>
+      </div>
+      <p>
+        Our proficient teacher of JS keeps themselves updated with
+        continuously evolving, innovative JavaScript standards to create
+        responsive, dynamic web and mobile apps. JavaScript’s usage has evolved
+        beyond the client side and it is being used in server-side, game
+        development, and cross-platform development. Here are some of the
+        popular JavaScript frameworks our developers work with.
+      </p>
+    </div>
+    <br />
+    <br />
+  </section>
+
+    <!-- section 2 ends  -->
+
+    <!-- section 3  -->
+    <section class="products" id="products">
+      <div class="box-container">
+        <!-- 1 -->
+        <div class="box">
+          <div class="image">
+            <img src="./img/React.png" alt="ReactLogo" />
+            <span class="heading">React</span>
+          </div>
+
+          <div class="content">
+            <p>
+              React is an open-source, flexible, declarative, front-end
+              JavaScript library, and is popular among developers for building
+              user interfaces. Hire React JS developers with the right skill set
+              and experience to build customized solutions as per your needs.
+              React makes frontend development easier and faster by offering an
+              easy learning curve, declarative paradigm, concise code structure,
+              simplicity, and flexibility
+            </p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="box">
+          <div class="image">
+            <img src="./img/angular.png" alt="AngularLogo" />
+            <span class="heading">Angular</span>
+          </div>
+
+          <div class="content">
+            <p>
+              Powered by Google, Angular is the most commonly used web
+              application framework for building mobile and desktop web
+              applications. It is known for its ability to deliver rich user
+              experiences. It is a front-end framework to create dynamic, robust
+              web apps and is the developers’ preferred web app framework. Many companies Hire
+              an Angular developer from our institute and utilize feature-rich
+              JS to build end-to-end web applications.
+            </p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="box">
+          <div class="image">
+            <img src="./img/nextjs.png" alt="NextjsLogo" />
+            <span class="heading">Next.js</span>
+          </div>
+
+          <div class="content">
+            <p>
+              Enjoy the best developer experience with the powerful features of
+              Next.js, a top open-source web development framework. It is mainly
+              used with React applications to make code streamlined and
+              accessible. It offers building blocks that help create apps faster
+              and easier. Our JavaScript Teachers keep themselves updated with
+              such trendy frameworks to create modern JavaScript-based apps.
+            </p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="box">
+          <div class="image">
+            <img src="./img/nodejs.png" alt="NodejsLogo" />
+            <span class="heading">Node.js</span>
+          </div>
+
+          <div class="content">
+            <p>
+              Node.js is a very popular cross-platform JavaScript runtime with
+              extra features to design scalable and powerful apps for
+              high-traffic requirements. Node.js offers an easy learning curve
+              and JavaScript foundation that help developers adapt to the
+              Node.js environment easily and quickly. Our skilled
+              Node.js teachers build powerful, scalable, faster, and more
+              efficient modern web applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 3 ends  -->
+    <hr />
+    <hr />
+    <br />
+
+    <!-- section 4  -->
+    <section class="blue">
+      <div class="image2">
+        <img src="./img/java2.png" alt="A man with laptop" />
+      </div>
+      <div class="head">
+        <h2>
+          JavaScript Development Services For Web, Mobile, and Cross-Platform
+          Apps
+        </h2>
+      </div>
+      <div class="p">
+        <p>
+          Unlock the potential of dominant JavaScript to develop diverse
+          applications such as web apps, mobile apps, web portals, dynamic
+          websites, and custom JavaScript applications by learning from our experienced
+          JavaScript teachers that streamline app development to attain your
+          business goals.
+        </p>
+      </div>
+
+      <a href="#" class="request1">Request A Quote</a>
+    </section>
+
+    <!-- section 4 ends  -->
+    <hr />
+    <hr />
+    <!-- section 5  -->
+    <section class="whychoose">
+      <div class="main">
+        <div class="head">
+          <span class="span1"
+            >Why Choose CodeAcademy As a JavaScript Learning Platform?</span
+          >
+        </div>
+        <div class="box-container">
+          <!-- 1 -->
+          <div class="box">
+            <div class="h11">
+              <h1>1000+</h1>
+              <span>Students</span>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="box">
+            <div class="h11">
+              <h1>70+</h1>
+              <span>Companies Linked</span>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="box">
+            <div class="h11">
+              <h1>96%</h1>
+              <span>Student Placed</span>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="box">
+            <div class="h11">
+              <h1>40+</h1>
+              <span>Teachers</span>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="box">
+            <div class="h11">
+              <h1>15+</h1>
+              <span>Cities Available</span>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="box">
+            <div class="h11">
+              <h1>4.7/5</h1>
+              <span>Expert's Ratings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 5 ends  -->
+
+    <hr />
+    <hr />
+
+    <!-- section 6 -->
+    <section class="hire">
+      <div class="mainbox">
+        <div class="image">
+          <img
+            src="./img/java3.png"
+            alt="A man sitting with a laptop in it doing something sketchy"
+          />
+        </div>
+        <div class="heading">
+          <h2>Hire JavaScript Developer</h2>
+        </div>
+        <div class="para">
+          <p>
+            Yes you can also hire our staff for your projects.......... <br>
+            Tap into the power of JavaScript to build dynamic and diverse web
+            applications by hiring JavaScript developers from CodeAcademy.
+            Gain access to top talents with years of experience in different
+            domains and competence to work with modern JavaScript frameworks.
+          </p>
+        </div>
+        <div class="button">
+          <a href="#">Talk to Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 6 ends -->
+    <hr><hr>
+    <!-- section 7 -->
+      <section class="related">
+        <div class="mainbox2">
+
+          <div class="head"> <h1>Our Premium Subscription Plans</h1> </div>
+        <div class="box-container">
+
+            <div class="box1">
+              <div class="head1"><span>Half Yearly Subscription</span></div>
+              <div class="para"><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima similique sint harum soluta sapiente velit, ullam quo cumque quis doloribus placeat doloremque, cum aliquam quaerat magnam vaiuge avibuev b abi  bavieu.</p></div>
+              <div class="button"><a href="#">Explore More</a></div>
+            </div>
+
+            <div class="box2">
+              <div class="head1"><span>Yearly Subscription</span></div>
+              <div class="para"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates voluptatem suscipit magni minus hic! Cum quis modi sequi, fugit accusamus laborum sapiente aliquam tenetur iste corrupti? Error, iste exercitationem eligendi obcaecati laborum repudiandae, officia, fugit recusandae deserunt ipsam nihil quae atque dolor at explicabo libero quaerat sapiente quam modi?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, omnis.</p></div>
+              <div class="button"><a href="#">Explore More</a></div>
+            </div>
+
+            <div class="box3">
+              <div class="head1"><span>Monthly Subscription</span></div>
+              <div class="para"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas vel nemo ipsa? Odit, dolore eveniet at officia vitae, sit veritatis, nam sunt architecto asperiores quo doloremque dolorem nulla nemo rem pariatur reiciendis ipsam? Consequuntur</p></div>
+              <div class="button"><a href="#">Explore More</a></div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    <!-- section 7 ends  -->
+
+    <hr><hr>
+
+    <!-- section 8 -->
+        
+        <section class="sec2">
+          <div class="head"> <h1>Our JS Teachers</h1> </div>
+        <div class="box-container">
+          <div class="scrollbox">
+            <div class="container text-center">
+                <div class="row row-cols-auto">
+                  <a href="#"><div class="col"><img src="./img/CSS1.png"><span><br><h5><b>Arun Vora Sir</b></h5></span></div></a>
+                  <a href="#"><div class="col"><img src="./img/CSS2.png"><span><br><h5><b>Krishna Kumar Sir</b></h5></span></div></a>
+                  <a href="#"><div class="col"><img src="./img/CSS3.png"><span><br><h5><b>Murli Raj Sir</b></h5></span></div></a>
+                  <span class="sp1"><a href="#"><div class="col"><img src="./img/CSS4.png"><span><br><h5><b>Varun Singh Sir</b></h5></span></div></a>
+                  <a href="#"><div class="col"><img src="./img/CSS5.png"><span><br><h5><b>Ravi Vora Sir</b></h5></span></div></a></span>
+                  
+                </div>
+              </div>
+        </section>
+      
+
+    <!-- section 8 end -->
+
+        <hr><hr>
+
+    <!-- section 9 -->
+  <section class="last">
+    <div class="Section9">
+      <div class="headlast">
+        <h1>Join Our Premium Plans Today And Start Learning Javascript</h1>
+      </div>
+      <p class="paralast">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis veritatis id at soluta laboriosam. Ex aperiam natus suscipit unde ipsam necessitatibus nulla eum, illo explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolore.
+      <div class="java4">
+        <img
+          src="./img/java4.png"
+          alt="there is somthing like two men shaking hands or doing something"
+        />
+        <button>Talk To Us</button>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- section 9 ends -->
+
+          <!-- footer  -->
+          <footer class="footer-distributed">
+
+            <div class="footer-left">
+      
+              <h3>Code<span>Academy</span></h3>
+      
+              <p class="footer-links">
+                <a href="#" class="link-1">Home</a>
+                
+                <a href="#">Courses</a>
+              
+                <a href="#">Teachers</a>
+              
+                <a href="#">Plans</a>
+                
+                <a href="#">About</a>
+                
+                <a href="#">Contact</a>
+              </p>
+      
+              <p class="footer-company">CodeAcademy © 2023</p>
+            </div>
+      
+            <div class="footer-center">
+      
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Lorem ipsum dolor sit.</span> Bhopal</p>
+              </div>
+      
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 1234567890</p>
+              </div>
+      
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">code@academy.com</a></p>
+              </div>
+      
+            </div>
+      
+            <div class="footer-right">
+      
+              <p class="footer-company">
+                <span>About CodeAcademy</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+              </p>
+      
+              <div class="footer-icons">
+      
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+      
+              </div>
+      
+            </div>
+      
+          </footer>
+          <!-- footer ends  -->
+          <script>
+
+            var icon = document.getElementById("icon");
+
+            icon.onclick = function(){
+              document.body.classList.toggle("dark-theme");
+              if(document.body.classList.contains("dark-theme")){
+                  icon.src = "./img/sun.png";
+              }else{
+                icon.src = "./img/moon.png";
+              }
+
+            }
+
+          </script>
+
+
+  </body>
+</html>
